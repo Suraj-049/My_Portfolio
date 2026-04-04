@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1.0, user-scalable=no">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="SGA.png" type="image/x-icon" class="icon-im">
+    <link rel="stylesheet" href="style25.css">
+</head>
+<body>
+    <div id="intro">
+        <img src="signature_2.png" alt="Signature" id="sign-img">
+    </div>
+    <nav>
+         <ul class="sidebar">
+            <li onclick="hidesidebar()"><a><img src="close.png"> </a></li>
+            <li><a href="#home" >Home </a></li>
+            <li><a href="#Games" >About  </a></li>
+            <li><a href="#Tournament" >Projects  </a></li>
+            <li><a href="#contact" >Contact </a></li>
+        </ul>
+
+        <ul>
+            <li><a>Suraj<span> Ambure</span> </a></li>
+            <li><a href="#home" class="hide">Home </a></li>
+            <li><a href="#Games" class="hide">About  </a></li>
+            <li><a href="#Tournament" class="hide">Projects  </a></li>
+            <li><a href="#contact" class="hide">Contact </a></li>
+            <li onclick="showsidebar()"><a href="#"><img src="menu.png" class="menu-i"></a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+    <div class="first">
+        <div class="text">
+            <h1>Suraj <br><span>Ambure</span></h1><br>
+         </div>
+    </div>
+    </section>  
+    
+     <section id="Games">
+        
+    <div class="second">
+        <h1 class="autoshow" style="color: #fff; text-align: center;">About Me :</h1>
+        <div class="container">
+               <div class="left">
+                    <img src="Suraj.jpg" id="im" class="autoshow">
+                 </div>
+            <div id="right" class="autoshow" >
+                <ul class="autoblur">
+
+<li>I am Suraj Ambure, a passionate programmer and aspiring web developer with a strong interest in esports and modern web design. I enjoy creating visually engaging and responsive websites using HTML and CSS, combining creativity with functionality.</li>
+
+<li>Alongside development, I am deeply involved in competitive gaming, specializing in titles like BGMI, Free Fire, Call of Duty, and Counter-Strike. My experience in gaming has helped me build focus, strategy, and teamwork skills.</li>
+
+<li>I am always eager to learn new technologies, improve my coding skills, and explore innovative ideas. My goal is to grow as a developer while staying connected to the gaming community and building projects that reflect both my technical skills and passion.</li>
+
+                </ul>
+            </div>
+        </div>    
+    </div>        
+    </section>    
+
+<section id="Tournament">
+
+    <div class="third">
+       <h2 class="autoshow" id="heading">My Projects :</h2>
+                <div class="projects">
+
+                    <div class="p1">
+                        <a href="https://surajx49.github.io/Gaming_Arena/">
+                            <img src="i1.png" alt="Project 1" class="img"></a>
+                          <p>Gaming Arena</p>
+                          <a href="https://suraj-049.github.io/Gaming_Arena/">
+                            <button class="pr-btn">View Site</button></a>
+                    </div>
+                    <div class="p1">
+                        <a href="bikenew.html">
+                            <img src="Harley.jpg" alt="Project 2" class="img" width="300px"></a>
+                          <p>Harley Davidson</p>
+                          <a href="bikenew.html">
+                            <button class="pr-btn">View Site</button></a>
+                    </div>
+
+                    <div class="p1">
+                        <a href="Expt21.html">
+                            <img src="Register.jpg" alt="Project 2" class="img" width="300px"></a>
+                        <p>Student Registration Page</p>
+                        <a href="Expt21.html">
+                            <button class="pr-btn">View Site</button></a>
+                    </div>
+
+                    <div class="p1">
+                        <a href="l"><img src="Music.jpg" alt="Project 2" class="img"></a>
+                        <p>Fav Songs</p>
+                        <a href="Spotify_hits.html">
+                            <button class="pr-btn">View Site</button></a>
+                    </div>
+        </div>
+    </div>    
+    </section>
+
+    <section id="contact">
+    <div class="feedback">
+            <form class="autoshow">
+                <h2 style="color: #fff;">Contact :</h2>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <textarea placeholder="Your messege" cols="50" rows="10"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            
+            <div class="contact">
+                <p class="autoblur">
+                    <img src="SGA_ icon.png" class="c-im" style="background-color: black;">~ Suraj G. Ambure<br>
+                    <img src="email.png" class="c-im">Email :<u>amburesuraj49@gmail.com</u><br>
+                    
+                    <img src="maps-and-flags.png" class="c-im">Address :Solapur,Maharashtra,India
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <hr>
+        <p >
+             © 2026 Gaming Arena | Suraj G. Ambure |All rights reserved |
+        </p>
+    </footer>
+    <img src="SGA.png" class="logo">
+
+    <script>
+        function showsidebar(){
+            const sidebar =document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+
+         function hidesidebar(){
+            const sidebar =document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+
+         setTimeout(() => {
+            document.getElementById("intro").style.display = "none";
+        }, 3500);
+
+    </script>
+</body>
+</html>
