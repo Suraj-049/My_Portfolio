@@ -40,5 +40,6 @@ This project is built to:
 
 ## 🧑‍💻 Author
 **Suraj Ganesh Ambure**
+**Govt. Polytechnic, Solapur**
 
 ---
