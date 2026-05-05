@@ -1,4 +1,4 @@
-# 🎮 Gaming Portfolio - Suraj Ambure
+# 🎮 Portfolio - Suraj Ambure
 
 ## 📌 About The Project
 This is a personal gaming portfolio website created using HTML and CSS.  
@@ -40,6 +40,7 @@ This project is built to:
 
 ## 🧑‍💻 Author
 **Suraj Ganesh Ambure**
+--
 **Govt. Polytechnic, Solapur**
 
 ---
